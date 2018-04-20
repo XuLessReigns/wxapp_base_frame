@@ -1,0 +1,8 @@
+<view class="ui-toptip" hidden="{{ui_toptip.hidden !== false}}">{{ ui_toptip.msg }}</view> 
+<view class="ui-mask light" hidden="{{ui_toast.hidden !== false}}">
+    <view class="ui-toast">{{ui_toast.msg}}</view>
+</view> 
+<view class="ui-pageloading" hidden="{{ui_pageloading.hidden !== false}}"><text></text></view>
+<view class="ui-logo {{ui_logo.className}}">
+    <image src="{{cdnBase}}/images/logo-{{ui_logo.type || 'dark'}}.png"></image>
+</view> 

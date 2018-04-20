@@ -1,0 +1,13 @@
+.ui-logo{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 20px 0; 
+    font-size: 0;
+    text-align: center;
+}
+
+.ui-logo image{
+    width: 84.5px;
+    height: 14.5px;
+}
